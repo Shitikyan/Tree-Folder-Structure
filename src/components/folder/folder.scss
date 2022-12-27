@@ -1,0 +1,20 @@
+.folder {
+  width: fit-content;
+
+  .folder-content {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    user-select: none;
+
+    & > img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .folder-items-container {
+    width: 100%;
+    margin-left: 15px;
+  }
+}
